@@ -18,7 +18,7 @@
     --s-4: 2.618rem;   /* φ²  */
     --s-5: 4.236rem;   /* φ³  */
 
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
         sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     color-scheme: dark;
     -webkit-font-smoothing: antialiased;
