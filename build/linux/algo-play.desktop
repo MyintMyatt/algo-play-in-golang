@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=algo-play
+Exec=algo-play
+Icon=algo-play
+Categories=Development;
+Terminal=false
+Keywords=wails
+Version=1.0
+StartupNotify=false

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=My Product
+Comment=A algo-play application
+# The Exec line includes %u to pass the URL to the application
+Exec=/usr/local/bin/algo-play %u
+Terminal=false
+Type=Application
+Icon=algo-play
+Categories=Utility;
+StartupWMClass=algo-play
+
+ 
