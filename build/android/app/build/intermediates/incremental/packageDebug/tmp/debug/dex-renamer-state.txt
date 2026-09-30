@@ -1,8 +1,8 @@
-#Mon Sep 28 21:52:29 MMT 2026
-base.0=/home/leo/Projects/algo-play/build/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/home/leo/Projects/algo-play/build/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/home/leo/Projects/algo-play/build/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
-base.3=/home/leo/Projects/algo-play/build/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+#Thu Oct 01 02:05:22 MMT 2026
+base.0=/Users/nyinyimyintmyat/Orion/Projects/algo-play-in-golang/build/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/nyinyimyintmyat/Orion/Projects/algo-play-in-golang/build/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/nyinyimyintmyat/Orion/Projects/algo-play-in-golang/build/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
+base.3=/Users/nyinyimyintmyat/Orion/Projects/algo-play-in-golang/build/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=8/classes.dex
