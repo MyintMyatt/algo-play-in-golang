@@ -2,6 +2,7 @@
     import { onMount } from "svelte";
     import userProfile from "../../public/default-profile.jpeg";
     import BackBtn from "../components/BackBtn.svelte";
+    import Toggle from "../components/Toggle.svelte";
     let currentTheme = $state<'light' | 'dark'>('dark');
 
   onMount(() => {
@@ -71,7 +72,7 @@
 
             <div class="setting-row">
                 <p class="app-label">Sound Effect</p>
-                <p class="about-data-value">orion</p>
+                <Toggle checked={false} onToggle={(checked) => console.log('Sound Effect toggled:', checked)} /> 
             </div>
 
             <div class="setting-row">
@@ -99,6 +100,7 @@
     height: 100vh;
     width: 100%;
     overflow-y: scroll;
+    scrollbar-width: none;
     gap: 35px;
     padding: 30px 10px;
     box-sizing: border-box;
@@ -138,8 +140,8 @@
 
   .about-user, .setting-content{
     background-color: var(--bg-surface);
-    box-shadow: 1px 2px var(--accent-primary);
-    border: 1px solid var(--border-subtle);
+    /* box-shadow: 1px 2px var(--accent-primary); */
+    border: .1px solid var(--border-subtle);
     align-items: start;
     justify-content: start;
     gap: 10px;
